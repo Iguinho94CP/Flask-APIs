@@ -1,3 +1,4 @@
+# Author: Igor Pantaleão
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
@@ -41,9 +42,6 @@ def home():
             }
         ), 200
 
-@app.route('/api/scraper')
-def scraper():
-    
 
 
 if __name__ == "__main__":
